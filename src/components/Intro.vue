@@ -1,12 +1,12 @@
 <template lang="pug">
 .intro
   .bg-white.rounded-xl.p-6
+    p.text-right.hidden(class="print:block") Scan this QR code to visit an online version of this resume
     .flex
       img.rounded-full.w-20.h-20(src="/assets/profile@2x.jpg")
       .flex-1
-      p.hidden(class="print:block") Scan this QR code to visit an online version of this resume
       img.w-20.h-20(src="/assets/qr.png")
-    .mt-4(class="sm:flex")
+    .mt-4(class="md:flex")
       div
         h1.text-3xl.font-bold Chaiyapat Tantiworachot
         h2.text-2xl.font-bold.text-gray-700 Solution Developer
@@ -14,7 +14,7 @@
           A computer science student with a mixture of experience.
           Capable of working and leading in a team environment.
           Passionate about human-computer interaction and front-end development.
-      .w-full.mt-4(style="max-width: 380px;" class="sm:mt-0 sm:text-right")
+      .w-full.mt-4(style="max-width: 380px;" class="md:mt-0 md:text-right")
         Contact
 </template>
 
