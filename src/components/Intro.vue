@@ -14,7 +14,7 @@
           A computer science student with a mixture of experience.
           Capable of working and leading in a team environment.
           Passionate about human-computer interaction and front-end development.
-      .w-full.mt-4(style="max-width: 380px;" class="md:mt-0 md:text-right")
+      .w-full.mt-4(style="max-width: 420px;" class="md:mt-0 md:text-right")
         Contact
 </template>
 
