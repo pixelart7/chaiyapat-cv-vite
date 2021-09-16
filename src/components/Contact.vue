@@ -1,21 +1,21 @@
 <template lang="pug">
 .contact
   div
-    span.text-gray-400.mr-2.font-light tel.
+    span.text-gray-400.mr-2.font-light.inline-block.w-14(class="sm:w-auto") tel.
     span.font-medium +66-81-5496692
   div
-    span.text-gray-400.mr-2.font-light email.
+    span.text-gray-400.mr-2.font-light.inline-block.w-14(class="sm:w-auto") email.
     span.font-medium chaiyapat@pix7.me
   div
-    span.text-gray-400.mr-2.font-light in.
+    span.text-gray-400.mr-2.font-light.inline-block.w-14(class="sm:w-auto") in.
     span.font-medium
       a.underline(class="hover:text-gray-600" href="https://linkedin.com/in/chaiyapat-t" target="_blank") linkedin.com/in/chaiyapat-t
   div
-    span.text-gray-400.mr-2.font-light github.
+    span.text-gray-400.mr-2.font-light.inline-block.w-14(class="sm:w-auto") github.
     span.font-medium
       a.underline(class="hover:text-gray-600" href="https://github.com/pixelart7" target="_blank") github.com/pixelart7
   div
-    span.text-gray-400.mr-2.font-light site.
+    span.text-gray-400.mr-2.font-light.inline-block.w-14(class="sm:w-auto") site.
     span.font-medium
       a.underline(class="hover:text-gray-600" href="https://pixelart7.github.io" target="_blank") pixelart7.github.io
       | ,
