@@ -9,12 +9,18 @@
       h4.font-semibold.leading-tight Shibaura Institute of Technology
       h4.leading-tight Tokyo, Japan
       h5.text-xs.font-medium.text-gray-500
-        | 04/2021 - 03/2023 <span class="text-medium text-primary-800">(Expected)</span>
-      p.mt-3.leading-tight.text-sm.
-        Area of study: Human-computer Interaction, Calm Technology, <span class="text-xs text-gray-400">still exploring!</span><br/>
+        | 04/2021 - <span class="text-primary-800">03/2023</span> <span class="text-medium text-white px-2 bg-primary-700 rounded ml-1">Expected</span>
+      p.mt-3.leading-tight.
         Member of <a class="underline hover:text-gray-600" href="http://pai.ise.shibaura-it.ac.jp/" target="_blank">Physically Augmented Interaction Laboratory</a>
-      p.mt-2.leading-tight.text-sm.
+        <br/>
         MEXT Scholarship (Monbukagakusho) recipient
+      h6.mt-2.font-semibold.text-sm Area of study:
+      p.leading-tight.
+        Human-computer Interaction, Calm Technology, <span class="text-xs text-gray-400">still exploring!</span>
+      ul.list-disc.ml-4.leading-tight.mt-3.space-y-2.text-gray-800.text-sm
+        li
+          span.font-semibold.mr-2 2021
+          | Developed a laboratory tour reservation system using Google App Script
     .-mx-6: hr.mt-6.mb-4
     div
       h3.text-xl.font-semibold.leading-tight B.Sc. Computer Science
