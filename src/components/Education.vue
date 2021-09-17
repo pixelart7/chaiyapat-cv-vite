@@ -11,7 +11,7 @@
       h5.text-xs.font-medium.text-gray-500
         | 04/2021 - 03/2023 <span class="text-medium text-primary-800">(Expected)</span>
       p.mt-3.leading-tight.text-sm.
-        Area of study: Human-computer Interaction, Calm Technology, <span class="text-xs text-gray-400">still exploring!</span>
+        Area of study: Human-computer Interaction, Calm Technology, <span class="text-xs text-gray-400">still exploring!</span><br/>
         Member of <a class="underline hover:text-gray-600" href="http://pai.ise.shibaura-it.ac.jp/" target="_blank">Physically Augmented Interaction Laboratory</a>
       p.mt-2.leading-tight.text-sm.
         MEXT Scholarship (Monbukagakusho) recipient
