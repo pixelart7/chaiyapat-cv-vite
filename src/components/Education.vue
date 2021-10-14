@@ -16,7 +16,7 @@
         MEXT Scholarship (Monbukagakusho) recipient
       h6.mt-2.font-semibold.text-sm Area of study:
       p.leading-tight.
-        Human-computer Interaction, Calm Technology, <span class="text-xs text-gray-400">still exploring!</span>
+        Human-computer Interaction, Calm Technology, Slow Technology, Peripheral Vision, Perception of Time
       ul.list-disc.ml-4.leading-tight.mt-3.space-y-2.text-gray-800.text-sm
         li
           span.font-semibold.mr-2 2021
