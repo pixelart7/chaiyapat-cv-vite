@@ -10,11 +10,11 @@
       .mt-4(class="md:flex")
         div
           h1.text-3xl.font-bold Chaiyapat Tantiworachot
-          h2.text-2xl.font-bold.text-gray-700 Solution Developer
+          h2.text-2xl.font-bold.text-gray-700 Probably What You Might Call A Generalist
           p.mt-2.leading-tight: .
-            A computer science student with a mixture of experience.
+            An everything-computer enthusiast with a mixture of experience.
             Capable of working and leading in a team environment.
-            Passionate about human-computer interaction and front-end development.
+            Passionate about human-computer interaction and user-end design & development.
         .w-full.mt-4(style="max-width: 420px;" class="md:mt-0 md:text-right")
           Contact
     .bg-gray-100.rounded-bl-xl.rounded-br-xl.py-3.px-6.text-xs.text-gray-400(class="transition-colors duration-100 hover:text-gray-600")
