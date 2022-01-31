@@ -4,19 +4,19 @@
     Intro
     .mt-2
       .block.space-y-2(class="sm:hidden")
-        Skill
         Work
         Education
+        Skill
         Language
         Interest
         SideProject
       .grid-cols-2.gap-2.space-y-2.hidden(class="sm:grid sm:space-y-0")
         .space-y-2
-          Skill
           Work
           SideProject
         .space-y-2
           Education
+          Skill
           Language
           Interest
 </template>
