@@ -6,7 +6,19 @@
     div
       div(class="md:flex md:space-x-3")
         .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
-          img.w-full.object-cover(alt="Image of my side project: \"To\" Link Shortener" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631782508/portfolio-vite/to.jpg")
+          img.w-full.object-cover(alt="Image of my side project: \"To\" Link Shortener" src="/assets/to.jpg")
+        .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
+          h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Personal Cloud & IoTs
+          h5.text-xs.font-medium.text-gray-500 Ongoing Hobby
+      p.mt-3.leading-tight: .
+        In free time, I work on my cloud for self-hosting application and integration of various IoT devices.
+        I have several servers on cloud and a Raspberry Pi running as a home server, both are just for fun.
+        On the cloud, I setup the majority of applications using Docker, apply security with VPN and firewall.
+    .-mx-6: hr.mt-2.mb-4
+    div
+      div(class="md:flex md:space-x-3")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+          img.w-full.object-cover(alt="Image of my side project: \"To\" Link Shortener" src="/assets/to.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") To. Link Shortener
           h5.text-xs.font-medium.text-gray-500 2019
@@ -25,7 +37,7 @@
     div
       div(class="md:flex md:space-x-3")
         .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
-          img.w-full.object-cover(alt="Image of my side project: Gimme Money" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631783474/portfolio-vite/gimme.jpg")
+          img.w-full.object-cover(alt="Image of my side project: Gimme Money" src="/assets/gimme.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Gimme Money
           h5.text-xs.font-medium.text-gray-500 2019
@@ -42,7 +54,7 @@
     div
       div(class="md:flex md:space-x-3")
         .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
-          img.w-full.object-cover(alt="Image of my side project: Lyrics Base" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631784854/portfolio-vite/lyrics.jpg")
+          img.w-full.object-cover(alt="Image of my side project: Lyrics Base" src="/assets/lyrics.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Lyrics Base
           h5.text-xs.font-medium.text-gray-500 2018
@@ -60,7 +72,7 @@
     div
       div(class="md:flex md:space-x-3")
         .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
-          img.w-full.object-cover(alt="Image of my side project: Hon no Jisho" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631785007/portfolio-vite/hon.jpg")
+          img.w-full.object-cover(alt="Image of my side project: Hon no Jisho" src="/assets/hon.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Hon no Jisho
           h5.text-xs.font-medium.text-gray-500 2018
