@@ -6,15 +6,30 @@
     div
       div(class="md:flex md:space-x-3")
         .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
-          img.w-full.object-cover(alt="Image of my side project: \"To\" Link Shortener" src="/assets/to.jpg")
+          img.w-full.object-cover(alt="Image of my home e-ink ambient display" src="/assets/home-ambient-display.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Personal Cloud & IoTs
           h5.text-xs.font-medium.text-gray-500 Ongoing Hobby
       p.mt-3.leading-tight: .
-        In free time, I work on my cloud for self-hosting application and integration of various IoT devices.
-        I have several servers on cloud and a Raspberry Pi running as a home server, both are just for fun.
+        In my free time, I work on my cloud for self-hosting applications and the integration of various IoT devices.
+        I have several servers on the cloud and a Raspberry Pi running as a home server, both are just for fun.
         On the cloud, I setup the majority of applications using Docker, apply security with VPN and firewall.
-    .-mx-6: hr.mt-2.mb-4
+      p.text-sm.mt-3.leading-tight: .
+        Image: an e-ink ambient display that runs on M5Stack's M5Paper.
+        Information is fetched and aggregated on the cloud then this device periodically refreshes itself.
+        (<a class="underline hover:text-gray-600" href="https://github.com/pixelart7/m5paper-micropython-data-text-display" target="_blank">github.com/pixelart7/m5paper-micropython-data-text-display</a>)
+    .-mx-6: hr.mt-6.mb-4
+    div
+      h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Localization File (.uasset) Parser
+      h5.text-xs.font-medium.text-gray-500 2019
+      p.mt-3.leading-tight: .
+        A quick (and probably dirty) .uasset parser for my friend, "chaisiam" at PlearnGaming.
+        He works on an <span class="font-semibold">unofficial</span> Thai localization mod for a game.
+        I helped him parse .uasset file to .csv so that he can work easily.
+      .mt-2
+        h5.inline.mr-1.font-semibold Source:
+        a.underline(class="hover:text-gray-600" href="https://github.com/pixelart7/uasset-parser" target="_blank") github.com/pixelart7/uasset-parser
+    .-mx-6: hr.mt-6.mb-4
     div
       div(class="md:flex md:space-x-3")
         .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
