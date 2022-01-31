@@ -4,10 +4,12 @@
   div
     .-mx-6: hr.mt-2.mb-4
     div
-      .max-h-48.overflow-hidden.-mx-3.rounded-xl.border.border-gray-100
-        img.w-full.object-cover(alt="Image of my side project: \"To\" Link Shortener" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631782508/portfolio-vite/to.jpg")
-      h3.text-xl.font-semibold.leading-tight.mt-6 To. Link Shortener
-      h5.text-xs.font-medium.text-gray-500 2019
+      div(class="md:flex md:space-x-3")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+          img.w-full.object-cover(alt="Image of my side project: \"To\" Link Shortener" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631782508/portfolio-vite/to.jpg")
+        .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
+          h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") To. Link Shortener
+          h5.text-xs.font-medium.text-gray-500 2019
       p.mt-3.leading-tight: .
         An educational link shortener service that I built in order to learn AMP framework.
       .mt-2
@@ -21,10 +23,12 @@
         a.underline(class="hover:text-gray-600" href="https://github.com/pixelart7/to-link-shortener-surge-sh" target="_blank") /to-link-shortener-surge-sh
     .-mx-6: hr.mt-6.mb-4
     div
-      .max-h-48.overflow-hidden.-mx-3.rounded-xl.border.border-gray-100
-        img.w-full.object-cover(alt="Image of my side project: Gimme Money" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631783474/portfolio-vite/gimme.jpg")
-      h3.text-xl.font-semibold.leading-tight.mt-6 Gimme Money
-      h5.text-xs.font-medium.text-gray-500 2019
+      div(class="md:flex md:space-x-3")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+          img.w-full.object-cover(alt="Image of my side project: Gimme Money" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631783474/portfolio-vite/gimme.jpg")
+        .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
+          h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Gimme Money
+          h5.text-xs.font-medium.text-gray-500 2019
       p.mt-3.leading-tight: .
         Designed and built a simple application built on Vue with PWA for
         generating a PromptPay QR code with the desired amount of money.
@@ -36,10 +40,12 @@
         a.underline(class="hover:text-gray-600" href="https://github.com/pixelart7/gimme-money" target="_blank") github.com/pixelart7/gimme-money
     .-mx-6: hr.mt-6.mb-4
     div
-      .max-h-48.overflow-hidden.-mx-3.rounded-xl.border.border-gray-100
-        img.w-full.object-cover(alt="Image of my side project: Lyrics Base" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631784854/portfolio-vite/lyrics.jpg")
-      h3.text-xl.font-semibold.leading-tight.mt-6 Lyrics Base
-      h5.text-xs.font-medium.text-gray-500 2018
+      div(class="md:flex md:space-x-3")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+          img.w-full.object-cover(alt="Image of my side project: Lyrics Base" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631784854/portfolio-vite/lyrics.jpg")
+        .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
+          h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Lyrics Base
+          h5.text-xs.font-medium.text-gray-500 2018
       p.mt-3.leading-tight: .
         Designed and developed a web-based application on Vue with PWA
         for storing lyrics in two languages. The app is built with
@@ -52,10 +58,12 @@
         a.underline(class="hover:text-gray-600" href="http://github.com/pixelart7/lyrics-base-2" target="_blank") github.com/pixelart7/lyrics-base-2
     .-mx-6: hr.mt-6.mb-4
     div
-      .max-h-48.overflow-hidden.-mx-3.rounded-xl.border.border-gray-100
-        img.w-full.object-cover(alt="Image of my side project: Hon no Jisho" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631785007/portfolio-vite/hon.jpg")
-      h3.text-xl.font-semibold.leading-tight.mt-6 Hon no Jisho
-      h5.text-xs.font-medium.text-gray-500 2018
+      div(class="md:flex md:space-x-3")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+          img.w-full.object-cover(alt="Image of my side project: Hon no Jisho" src="https://res.cloudinary.com/djtg2hopi/image/upload/v1631785007/portfolio-vite/hon.jpg")
+        .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
+          h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Hon no Jisho
+          h5.text-xs.font-medium.text-gray-500 2018
       p.mt-3.leading-tight: .
         Designed and developed a web-based application on Vue with PWA
         for storing book vocabulary in Japanese and English. Words are separated
