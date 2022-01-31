@@ -46,7 +46,7 @@
         LocalStorage.js where all data are stored on the user's Google Drive.
       .mt-2
         h5.inline.mr-1.font-semibold Live:
-        a.underline(class="hover:text-gray-600" href="http://lyricsbase.pix7.app" target="_blank") lyricsbase.pix7.app
+        a.underline(class="hover:text-gray-600" href="http://lyricsbase.pix7.me" target="_blank") lyricsbase.pix7.me
         br
         h5.inline.mr-1.font-semibold Source:
         a.underline(class="hover:text-gray-600" href="http://github.com/pixelart7/lyrics-base-2" target="_blank") github.com/pixelart7/lyrics-base-2
