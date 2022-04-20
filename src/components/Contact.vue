@@ -1,6 +1,6 @@
 <template lang="pug">
 .contact
-  div
+  //- div
     span.text-gray-400.mr-2.font-light.inline-block.w-16(class="md:w-auto") tel.
     span.font-medium +66-81-5496692
   div
