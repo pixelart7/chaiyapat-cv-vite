@@ -12,11 +12,12 @@
       p.mt-3.leading-tight: .
         Some of the final result that I worked before:
         a single-page app, an landing page, an interactive microsite for a short campaign,
-        a website for an academic conference, and an interactive web for digital signage.
+        a website for an academic conference, an interactive web for digital signage,
+        and a web-based livestream overlay.
     div
       h3.text-xl.font-semibold.leading-tight Senior Solution Developer (Project-based, Remote)
       h4.font-semibold Idea Vivat
-      h5.text-xs.font-medium.text-gray-500 06/2021 - Present (Project-based); 10/2019 - 06/2021 (Full-time)
+      h5.text-xs.font-medium.text-gray-500 Project-based; 10/2019 - 06/2021 (Full-time)
       p.mt-3.leading-tight: .
         I work from a requirement gathering phase until the delivery of the solution.
         I am involved in both designing phase and developing phase.

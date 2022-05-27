@@ -14,13 +14,25 @@
         Member of <a class="underline hover:text-gray-600" href="http://pai.ise.shibaura-it.ac.jp/" target="_blank">Physically Augmented Interaction Laboratory</a>
         <br/>
         MEXT Scholarship (Monbukagakusho) recipient
-      h6.mt-2.font-semibold.text-sm Area of study:
+      h6.mt-2.font-semibold.text-sm Publications:
+      ul.list-disc.ml-4.leading-tight.mt-1.space-y-2.text-gray-800.text-sm
+        li
+          | <span class="font-semibold">Chaiyapat Tantiworachot</span> and Hiroyuki Manabe. 2022.
+          | Summer Skybox: A Device Representing the Sky for Personalized Day Cycle.
+          | In 13th Augmented Human International Conference (AH2022).
+          | Association for Computing Machinery, New York, NY, USA, Article 9, 1-4.
+          |
+          a(class="underline hover:text-gray-600" href="https://doi.org/10.1145/3532525.3532532" target="_blank") https://doi.org/10.1145/3532525.3532532
+      h6.mt-3.font-semibold.text-sm Area of study:
       p.leading-tight.
         Human-computer Interaction, Calm Technology, Peripheral Vision, Perception of Time
       ul.list-disc.ml-4.leading-tight.mt-3.space-y-2.text-gray-800.text-sm
         li
+          span.font-semibold.mr-2 2022
+          | Work at Global Learning Commons, a place for international discussion, as a student staff
+        li
           span.font-semibold.mr-2 2021
-          | Developed a laboratory tour reservation system using Google App Script
+          | Develop a laboratory tour reservation system using Google App Script
     .-mx-6: hr.mt-6.mb-4
     div
       h3.text-xl.font-semibold.leading-tight B.Sc. Computer Science
