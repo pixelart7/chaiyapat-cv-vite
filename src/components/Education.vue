@@ -44,7 +44,7 @@
       h5.text-xs.font-medium.text-gray-500
         | 07/2015 - 11/2019
         br
-        | Cumulative GPA: 3.80
+        | Cumulative GPA: 3.80 (first-class honors)
       ul.list-disc.ml-4.leading-tight.mt-3.space-y-2.text-gray-800.text-sm
         li
           span.font-semibold.mr-2 2019
