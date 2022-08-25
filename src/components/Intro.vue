@@ -14,7 +14,7 @@
           p.mt-2.leading-tight: .
             An everything-computer enthusiast with a mixture of experience.
             Capable of working and leading in a team environment.
-            Passionate about human-computer interaction and user-end design & development.
+            Passionate about human-computer interaction and end-user design & development.
         .w-full.mt-4(style="max-width: 420px;" class="md:mt-0 md:text-right")
           Contact
     .bg-gray-100.rounded-bl-xl.rounded-br-xl.py-3.px-6.text-xs.text-gray-400(class="transition-colors duration-100 hover:text-gray-600")

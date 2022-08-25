@@ -29,7 +29,10 @@
       ul.list-disc.ml-4.leading-tight.mt-3.space-y-2.text-gray-800.text-sm
         li
           span.font-semibold.mr-2 2022
-          | Work at Global Learning Commons, a place for international discussion, as a student staff
+          | Also at GLC, develop a room check-in system using Google App Script to solve a previously-used lengthy QR code + Google Forms system
+        li
+          span.font-semibold.mr-2 2022
+          | Work at Global Learning Commons (GLC), a place for international discussion, as a student staff
         li
           span.font-semibold.mr-2 2021
           | Develop a laboratory tour reservation system using Google App Script
@@ -41,7 +44,7 @@
       h5.text-xs.font-medium.text-gray-500
         | 07/2015 - 11/2019
         br
-        | Cumulative GPA: 3.80
+        | Cumulative GPA: 3.80 (first-class honors)
       ul.list-disc.ml-4.leading-tight.mt-3.space-y-2.text-gray-800.text-sm
         li
           span.font-semibold.mr-2 2019
