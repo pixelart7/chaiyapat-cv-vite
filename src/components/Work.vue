@@ -13,7 +13,7 @@
         Some of the final result that I worked before:
         a single-page app, an landing page, an interactive microsite for a short campaign,
         a website for an academic conference, an interactive web for digital signage,
-        and a web-based livestream overlay.
+        a web-based livestream overlay, a website for a V-Tubers agency, and a front-end site for a cosmetic company.
     div
       h3.text-xl.font-semibold.leading-tight Senior Solution Developer (Project-based, Remote)
       h4.font-semibold Idea Vivat
