@@ -23,7 +23,7 @@
           | Association for Computing Machinery, New York, NY, USA, Article 9, 1-4.
           |
           a(class="underline hover:text-gray-600" href="https://doi.org/10.1145/3532525.3532532" target="_blank") https://doi.org/10.1145/3532525.3532532
-          |
+          | &nbsp;
           a(class="underline hover:text-gray-600" href="https://www.shibaura-it.ac.jp/en/news/nid00002558.html" target="_blank") (Best Short Paper)
       h6.mt-3.font-semibold.text-sm Area of study:
       p.leading-tight.
