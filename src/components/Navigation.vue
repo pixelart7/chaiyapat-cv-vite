@@ -23,7 +23,7 @@ export default defineComponent({
     function smoothTransition(elementId: string) {
       const section = document.getElementById(elementId);
       if (section) {
-        const navigationHeight = (navigation.value) ? (navigation.value as Element).getBoundingClientRect().height || 64 : 64;
+        const navigationHeight = (navigation.value) ? (navigation.value as unknown as Element).getBoundingClientRect().height || 64 : 64;
         const elementPosition = section.getBoundingClientRect().top;
 
         window.scrollTo({
