@@ -39,12 +39,12 @@ export default defineComponent({
       'side-project': 'Side Projects',
       interest: 'Interests',
     }
-
+    
     const mobileLinks = {
-      top: 'Top',
       work: 'Work & Education',
       skill: 'Skills',
       'side-project': 'Side Projects',
+      top: 'Top',
     }
 
     const links = computed(() => (largerThanSm.value) ? desktopLinks : mobileLinks)
