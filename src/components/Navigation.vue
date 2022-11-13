@@ -5,25 +5,31 @@
 )
   .overflow-x-auto.px-3.py-1(class="sm:overflow-x-visible")
     .flex.flex-nowrap.items-center.-mx-1(class="sm:flex-wrap")
-      .inline.mr-1.text-sm.text-primary-900.w-full.px-1.mb-2.opacity-70.mt-2.whitespace-nowrap(class="sm:w-auto sm:mb-0 sm:mt-0 sm:whitespace-normal") Jump to:
-      a.px-3.py-1.m-1.rounded-full.text-sm.border.font-medium.text-gray-700.whitespace-nowrap(
+      .inline.text-xs.text-primary-900.px-1.mb-2.opacity-70.mt-2.whitespace-nowrap.text-center.leading-none(class="sm:w-auto sm:mb-0 sm:mt-0 sm:whitespace-normal")
+        .hidden(class="sm:block") Jump to:
+        .block(class="sm:hidden") Jump<br />to
+      a.px-3.py-1.m-1.rounded-full.border.font-medium.text-gray-700.whitespace-nowrap(
         v-for="(name, link) in links"
         :id="`nav-${link}`"
         :href="`#${link}`"
         @click.prevent="smoothTransition(link)"
-        class="border-gray-800/10 bg-white/70 hover:bg-white/90 hover:border-primary-700 sm:whitespace-normal"
+        class="border-gray-800/10 bg-white/70 hover:bg-white/90 hover:border-primary-700 sm:whitespace-normal sm:text-base lg:text-sm"
       ) {{name}}
       .w-6(class="sm:hidden") &nbsp;
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, computed } from 'vue';
+import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
 
 export default defineComponent({
   setup() {
     const navigation = ref(null);
 
-    const links = {
+    const breakpoints = useBreakpoints(breakpointsTailwind);
+    const largerThanSm = breakpoints.greater('sm');
+
+    const desktopLinks = {
       top: 'Intro',
       about: 'About',
       work: 'Work Experiences',
@@ -33,6 +39,15 @@ export default defineComponent({
       'side-project': 'Side Projects',
       interest: 'Interests',
     }
+
+    const mobileLinks = {
+      top: 'Top',
+      work: 'Work & Education',
+      skill: 'Skills',
+      'side-project': 'Side Projects',
+    }
+
+    const links = computed(() => (largerThanSm.value) ? desktopLinks : mobileLinks)
 
     function smoothTransition(elementId: string) {
       const section = document.getElementById(elementId);
