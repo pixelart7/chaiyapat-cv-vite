@@ -18,7 +18,7 @@
     span.text-gray-400.mr-2.font-light.inline-block.w-16(class="md:w-auto") profile.
     span.font-medium
       a.underline(class="hover:text-gray-600" href="https://pixelart7.github.io" target="_blank") pixelart7.github.io
-  div
+  //- div
     span.text-gray-400.mr-2.font-light.inline-block.w-16(class="md:w-auto") blog.
     span.font-medium
       a.underline(class="hover:text-gray-600" href="https://chaiyapat.medium.com" target="_blank") chaiyapat.medium.com

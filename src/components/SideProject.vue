@@ -1,11 +1,11 @@
 <template lang="pug">
-.side-project.bg-white.rounded-xl.p-6
+#side-project.bg-white.rounded-xl.p-6(class="print:p-0")
   h2.text-2xl.font-bold.mb-3.mt-2 Side Projects
   div
-    .-mx-6: hr.mt-2.mb-4
+    Spacer(forHeading)
     div
-      div(class="md:flex md:space-x-3")
-        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+      div(class="md:flex md:space-x-3 print:space-x-0")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100(class="print:hidden")
           img.w-full.object-cover(alt="Image of my home e-ink ambient display" src="/assets/home-ambient-display.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Personal Cloud & IoTs
@@ -18,7 +18,7 @@
         Image: an e-ink ambient display that runs on M5Stack's M5Paper.
         Information is fetched and aggregated on the cloud then this device periodically refreshes itself.
         (<a class="underline hover:text-gray-600" href="https://github.com/pixelart7/m5paper-micropython-data-text-display" target="_blank">github.com/pixelart7/m5paper-micropython-data-text-display</a>)
-    .-mx-6: hr.mt-6.mb-4
+    Spacer(hideOnPrint)
     div
       h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Localization File (.uasset) Parser
       h5.text-xs.font-medium.text-gray-500 2019
@@ -29,10 +29,10 @@
       .mt-2
         h5.inline.mr-1.font-semibold Source:
         a.underline(class="hover:text-gray-600" href="https://github.com/pixelart7/uasset-parser" target="_blank") github.com/pixelart7/uasset-parser
-    .-mx-6: hr.mt-6.mb-4
+    Spacer(hideOnPrint)
     div
-      div(class="md:flex md:space-x-3")
-        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+      div(class="md:flex md:space-x-3 print:space-x-0")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100(class="print:hidden")
           img.w-full.object-cover(alt="Image of my side project: \"To\" Link Shortener" src="/assets/to.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") To. Link Shortener
@@ -48,10 +48,10 @@
         | ,
         |
         a.underline(class="hover:text-gray-600" href="https://github.com/pixelart7/to-link-shortener-surge-sh" target="_blank") /to-link-shortener-surge-sh
-    .-mx-6: hr.mt-6.mb-4
+    Spacer(hideOnPrint)
     div
-      div(class="md:flex md:space-x-3")
-        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+      div(class="md:flex md:space-x-3 print:space-x-0")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100(class="print:hidden")
           img.w-full.object-cover(alt="Image of my side project: Gimme Money" src="/assets/gimme.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Gimme Money
@@ -65,10 +65,10 @@
         br
         h5.inline.mr-1.font-semibold Source:
         a.underline(class="hover:text-gray-600" href="https://github.com/pixelart7/gimme-money" target="_blank") github.com/pixelart7/gimme-money
-    .-mx-6: hr.mt-6.mb-4
+    Spacer(hideOnPrint)
     div
-      div(class="md:flex md:space-x-3")
-        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+      div(class="md:flex md:space-x-3 print:space-x-0")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100(class="print:hidden")
           img.w-full.object-cover(alt="Image of my side project: Lyrics Base" src="/assets/lyrics.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Lyrics Base
@@ -83,10 +83,10 @@
         br
         h5.inline.mr-1.font-semibold Source:
         a.underline(class="hover:text-gray-600" href="http://github.com/pixelart7/lyrics-base-2" target="_blank") github.com/pixelart7/lyrics-base-2
-    .-mx-6: hr.mt-6.mb-4
+    Spacer(hideOnPrint)
     div
-      div(class="md:flex md:space-x-3")
-        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100
+      div(class="md:flex md:space-x-3 print:space-x-0")
+        .flex-1.max-h-48.overflow-hidden.rounded-xl.border.border-gray-100(class="print:hidden")
           img.w-full.object-cover(alt="Image of my side project: Hon no Jisho" src="/assets/hon.jpg")
         .flex-1.min-w-96.justify-end.flex-col(class="md:flex")
           h3.text-xl.font-semibold.leading-tight.mt-6(class="md:mt-0") Hon no Jisho
@@ -102,9 +102,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import Spacer from './Spacer.vue';
 
 export default defineComponent({
   // setup() {},
+  components: { Spacer }
 });
 </script>
 

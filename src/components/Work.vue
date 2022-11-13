@@ -1,5 +1,5 @@
 <template lang="pug">
-.work.bg-white.rounded-xl.p-6
+#work.bg-white.rounded-xl.p-6(class="print:p-0")
   h2.text-2xl.font-bold.mb-3.mt-2 Work Experiences
   .space-y-6
     div
@@ -9,11 +9,15 @@
         Trusted by many agencies and companies, I work in my free-time.
         The scope of work that I usually involved with is in the front-end web development
         and technical project requirement gathering & planning.
-      p.mt-3.leading-tight: .
-        Some of the final result that I worked before:
-        a single-page app, an landing page, an interactive microsite for a short campaign,
-        a website for an academic conference, an interactive web for digital signage,
-        a web-based livestream overlay, a website for a V-Tubers agency, and a front-end site for a cosmetic company.
+      p.mt-3.leading-tight Some of the final result that I worked before:
+      ul.text-sm.list-disc.ml-4.mt-2
+        li Single-page web apps: gave advice/work in some module in the big systems
+        li Landing pages: work on developing a front-end sites
+        li An interactive microsite: a short dress-up social game, a quiz for a commemorative event
+        li An interactive web for digital signage: as part of a valentine event, displayed in a signage screen at Siam area, Bangkok
+        li A web-based livestream overlay: an overlay for a livestreaming event of Bangkok Election 2022
+        li A website for an academic conference: <a href="https://icome.tsme.org/icome2022/" target="_blank" class="underline hover:text-gray-600">TSME-ICoME 2022</a>
+        li A website for a V-Tubers agency: <a href="https://algorhythm.realic.net/" target="_blank" class="underline hover:text-gray-600">Algorhythm Project</a>
     div
       h3.text-xl.font-semibold.leading-tight Senior Solution Developer (Project-based, Remote)
       h4.font-semibold Idea Vivat
@@ -29,7 +33,7 @@
       p.mt-3.leading-tight: .
         Experienced in non-profit Minecraft game server administration.
         Built the web application used by players and staff team.
-  .-mx-6: hr.mt-6.mb-4
+  Spacer
   h3.text-xl.font-bold.mb-3.mt-2 Short-term
   .space-y-6
     div
@@ -51,8 +55,11 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
+import Spacer from './Spacer.vue';
+
 export default defineComponent({
   // setup() {},
+  components: { Spacer }
 });
 </script>
 

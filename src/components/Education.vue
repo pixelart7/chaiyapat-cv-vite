@@ -1,21 +1,21 @@
 <template lang="pug">
-.education.bg-white.rounded-xl.p-6
+#education.bg-white.rounded-xl.p-6(class="print:p-0")
   h2.text-2xl.font-bold.mb-3.mt-2 Education
   div
-    .-mx-6: hr.mt-2.mb-4
+    Spacer(forHeading)
     div
       h3.text-xl.font-semibold.leading-tight M.E. Electrical Engineering and Computer Science
       h3.text-xl.font-semibold.leading-tight 
       h4.font-semibold.leading-tight Shibaura Institute of Technology
       h4.leading-tight Tokyo, Japan
       h5.text-xs.font-medium.text-gray-500
-        | 04/2021 - <span class="text-primary-800">03/2023</span> <span class="text-medium text-white px-2 bg-primary-700 rounded ml-1">Expected</span>
+        | 04/2021 - <span class="text-primary-800">03/2023</span> <span class="text-medium text-white px-2 bg-primary-700 rounded ml-1 print:border print:border-primary-700 print:bg-white print:text-primary-800">Expected</span>
       p.mt-3.leading-tight.
         Member of <a class="underline hover:text-gray-600" href="http://pai.ise.shibaura-it.ac.jp/" target="_blank">Physically Augmented Interaction Laboratory</a>
         <br/>
         MEXT Scholarship (Monbukagakusho) recipient
       h6.mt-2.font-semibold.text-sm Publications:
-      ul.list-disc.ml-4.leading-tight.mt-1.space-y-2.text-gray-800.text-sm
+      ul.list-disc.ml-4.leading-tight.mt-1.space-y-1.text-gray-800.text-sm
         li
           | <span class="font-semibold">Chaiyapat Tantiworachot</span> and Hiroyuki Manabe. 2022.
           | Summer Skybox: A Device Representing the Sky for Personalized Day Cycle.
@@ -28,17 +28,20 @@
       h6.mt-3.font-semibold.text-sm Area of study:
       p.leading-tight.
         Human-computer Interaction, Calm Technology, Peripheral Vision, Perception of Time
-      ul.list-disc.ml-4.leading-tight.mt-3.space-y-2.text-gray-800.text-sm
+      ul.list-disc.ml-4.leading-tight.mt-2.space-y-1.text-gray-800.text-sm
         li
           span.font-semibold.mr-2 2022
-          | Also at GLC, develop a room check-in system using Google App Script to solve a previously-used lengthy QR code + Google Forms system
+          | At GLC, after working as a student staff for one semester, I was invited to be one of the GLC student leadership team
+        li
+          span.font-semibold.mr-2 2022
+          | At GLC, develop a room check-in system using Google App Script to solve a previously-used lengthy QR code + Google Forms system
         li
           span.font-semibold.mr-2 2022
           | Work at Global Learning Commons (GLC), a place for international discussion, as a student staff
         li
           span.font-semibold.mr-2 2021
           | Develop a laboratory tour reservation system using Google App Script
-    .-mx-6: hr.mt-6.mb-4
+    Spacer
     div
       h3.text-xl.font-semibold.leading-tight B.Sc. Computer Science
       h4.font-semibold.leading-tight King Mongkut’s University of Technology Thonburi
@@ -47,7 +50,7 @@
         | 07/2015 - 11/2019
         br
         | Cumulative GPA: 3.80 (first-class honors)
-      ul.list-disc.ml-4.leading-tight.mt-3.space-y-2.text-gray-800.text-sm
+      ul.list-disc.ml-4.leading-tight.mt-2.space-y-1.text-gray-800.text-sm
         li
           span.font-semibold.mr-2 2019
           | Volunteer as a registrar in the event called
@@ -83,9 +86,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import Spacer from './Spacer.vue';
 
 export default defineComponent({
   // setup() {},
+  components: { Spacer }
 });
 </script>
 
