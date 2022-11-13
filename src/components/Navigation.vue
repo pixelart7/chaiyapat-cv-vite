@@ -1,7 +1,7 @@
 <template lang="pug">
 .navigation.px-3.py-1.leading-relaxed.border-b(
   ref="navigation"
-  class="sm:border border-black/10 bg-white/40 backdrop-blur-lg sm:rounded-br-xl sm:rounded-bl-xl"
+  class="sm:border-b sm:border-l sm:border-r border-black/10 bg-white/40 backdrop-blur-lg sm:rounded-br-xl sm:rounded-bl-xl"
 )
   .flex.flex-wrap.items-center.-mx-1
     .inline.mr-1.text-sm.text-primary-900.w-full.px-1.mb-2.opacity-70.mt-2(class="sm:w-auto sm:mb-0 sm:mt-0") Jump to:
