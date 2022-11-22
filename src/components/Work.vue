@@ -4,7 +4,7 @@
   .space-y-6
     div
       h3.text-xl.font-semibold.leading-tight Freelance Web Solution Developer
-      h5.text-xs.font-medium.text-gray-500 Availability varies
+      h5.text-xs.font-medium.text-gray-500 Availability varies (have been accepting freelance work since 2016)
       p.mt-3.leading-tight: .
         Trusted by many agencies and companies, I work in my free-time.
         The scope of work that I usually involved with is in the front-end web development
@@ -19,13 +19,12 @@
         li A website for an academic conference: <a href="https://icome.tsme.org/icome2022/" target="_blank" class="underline hover:text-gray-600">TSME-ICoME 2022</a>
         li A website for a V-Tubers agency: <a href="https://algorhythm.realic.net/" target="_blank" class="underline hover:text-gray-600">Algorhythm Project</a>
     div
-      h3.text-xl.font-semibold.leading-tight Senior Solution Developer (Project-based, Remote)
+      h3.text-xl.font-semibold.leading-tight Senior Solution Developer (Remote)
       h4.font-semibold Idea Vivat
-      h5.text-xs.font-medium.text-gray-500 Project-based; 10/2019 - 06/2021 (Full-time)
+      h5.text-xs.font-medium.text-gray-500 10/2019 - 03/2021 (Full-time), 04/2021 - 06/2021 (Part-time)
       p.mt-3.leading-tight: .
         I work from a requirement gathering phase until the delivery of the solution.
         I am involved in both designing phase and developing phase.
-        I was working full-time remote but currently is more of a project-based remotely while studying Master's.
     div
       h3.text-xl.font-semibold.leading-tight Game Server Administrator (Self-employed)
       h4.font-semibold Siam Minecraft
