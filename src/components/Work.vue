@@ -19,7 +19,7 @@
         li A website for an academic conference: <a href="https://icome.tsme.org/icome2022/" target="_blank" class="underline hover:text-gray-600">TSME-ICoME 2022</a>
         li A website for a V-Tubers agency: <a href="https://algorhythm.realic.net/" target="_blank" class="underline hover:text-gray-600">Algorhythm Project</a>
     div
-      h3.text-xl.font-semibold.leading-tight Senior Solution Developer (Remote)
+      h3.text-xl.font-semibold.leading-tight Senior Solution Developer (former Front-end Web Developer) (Remote)
       h4.font-semibold Idea Vivat
       h5.text-xs.font-medium.text-gray-500 10/2019 - 03/2021 (Full-time), 04/2021 - 06/2021 (Part-time)
       p.mt-3.leading-tight: .
