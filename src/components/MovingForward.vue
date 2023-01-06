@@ -1,10 +1,10 @@
 <template lang="pug">
 .moving-forward
   .rounded-xl.overflow-hidden
-    .border-b(style="background: linear-gradient(to right, #fff, #FFFAF7)")
+    .border-b(style="background: linear-gradient(to right, #fff, #fff, #FFFAF7, #FFFAF7)")
       .mx-auto.flex.items-stretch(style="max-width: 65ch;")
         img.h-20(class="sm:h-28" src="/assets/moving-forward.jpg")
-        .pr-3.pl-1.flex-1.font-moving.flex.flex-col.justify-center.leading-tight
+        .pr-3.pl-1.flex-1.font-moving.flex.flex-col.justify-center.leading-tight(style="background-color: #FFFAF7")
           .font-bold(class="sm:text-lg") moving forward to the new site:
           .text-sm(class="sm:text-base") <a href="https://chaiyapat.pix7.me" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>
     .bg-white.px-6.py-6.font-moving
