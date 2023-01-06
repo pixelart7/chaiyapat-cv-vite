@@ -7,7 +7,7 @@
         .pr-3.pl-1.flex-1.font-moving.flex.flex-col.justify-center.leading-tight(style="background-color: #FFFAF7")
           .font-bold(class="sm:text-lg") moving forward to the new site:
           .text-sm(class="sm:text-base") <a href="https://chaiyapat.pix7.me" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>
-    .bg-white.px-6.py-6.font-moving
+    .bg-white.p-3.font-moving(class="sm:p-6")
       .mx-auto(style="max-width: 65ch;")
         p.text-sm. 
           Thank you for visiting! I'm moving my site from using GitHub Pages (pixelart7.github.io) to my domain (<a href="https://chaiyapat.pix7.me" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>).
