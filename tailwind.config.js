@@ -6,6 +6,7 @@ module.exports = {
         'print': { 'raw': 'print' },
       },
       fontFamily: {
+        moving: 'Epilogue, sans-serif',
         body: 'system-ui, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, Oxygen, system-ui, -apple-system, BlinkMacSystemFont, sans-serif',
         sans: 'system-ui, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, Oxygen, system-ui, -apple-system, BlinkMacSystemFont, sans-serif',
       },

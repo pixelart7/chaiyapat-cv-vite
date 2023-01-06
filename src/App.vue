@@ -2,6 +2,7 @@
 .app.px-2.py-2#top
   .mx-auto.w-full(style="max-width: 1104px;")
     Navigation.-mt-2.mb-2.-mx-2.sticky.top-0(class="sm:mx-0 print:hidden")
+    MovingForward.mb-2
     Intro
     .mt-2(class="print:hidden")
       .space-y-2(v-if="!largerThanSm")
@@ -40,6 +41,7 @@
 import { defineComponent } from 'vue';
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core'
 
+import MovingForward from './components/MovingForward.vue';
 import Intro from './components/Intro.vue';
 import Skill from './components/Skill.vue';
 import Work from './components/Work.vue';
@@ -50,7 +52,7 @@ import Interest from './components/Interest.vue';
 import About from './components/About.vue';
 import Navigation from './components/Navigation.vue';
 
-const components = { Intro, Skill, Work, SideProject, Education, Language, Interest, About, Navigation };
+const components = { Intro, Skill, Work, SideProject, Education, Language, Interest, About, Navigation, MovingForward };
 
 export default defineComponent({
   setup() {
@@ -65,6 +67,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
 // .app {
 // }
 </style>
