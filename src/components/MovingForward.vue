@@ -3,7 +3,7 @@
   .rounded-xl.overflow-hidden
     .border-b(style="background: linear-gradient(to right, #fff, #FFFAF7)")
       .mx-auto.flex.items-stretch(style="max-width: 65ch;")
-        img.h-20(class="sm:h-28" src="assets/moving-forward.jpg")
+        img.h-20(class="sm:h-28" src="/assets/moving-forward.jpg")
         .pr-3.pl-1.flex-1.font-moving.flex.flex-col.justify-center.leading-tight
           .font-bold(class="sm:text-lg") moving forward to the new site:
           .text-sm(class="sm:text-base") <a href="https://chaiyapat.pix7.me" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>
