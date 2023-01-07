@@ -6,16 +6,16 @@
         img.h-20(class="sm:h-28" src="/assets/moving-forward.jpg")
         .pr-3.pl-1.flex-1.font-moving.flex.flex-col.justify-center.leading-tight(style="background-color: #FFFAF7")
           .font-bold(class="sm:text-lg") moving forward to the new site:
-          .text-sm(class="sm:text-base") <a href="https://chaiyapat.pix7.me" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>
+          .text-sm(class="sm:text-base") <a href="https://chaiyapat.pix7.me/about" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>
     .bg-white.p-3.font-moving(class="sm:p-6")
       .mx-auto(style="max-width: 65ch;")
         p.text-sm. 
-          Thank you for visiting! I'm moving my site from using GitHub Pages (pixelart7.github.io) to my domain (<a href="https://chaiyapat.pix7.me" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>).
+          Thank you for visiting! I'm moving my site from using GitHub Pages (pixelart7.github.io) to my domain (<a href="https://chaiyapat.pix7.me/about" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>).
           The new site is redesigned and reimagined from the ground up. There's also a new digital garden section for me to post some stuff.
           I will set an automatic redirection when I finished tidying up! See you there :)
         .text-right.mt-3(class="sm:mt-6")
           a.bg-primary-500.px-3.py-2.rounded-lg.text-black.inline-block.tracking-wider.border.border-primary-900(
-            class="hover:bg-primary-400" href="https://chaiyapat.pix7.me"
+            class="hover:bg-primary-400" href="https://chaiyapat.pix7.me/about"
           ) To the new site
 </template>
 
