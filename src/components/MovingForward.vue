@@ -12,17 +12,20 @@
         p.text-sm. 
           Thank you for visiting! I'm moving my site from using GitHub Pages (pixelart7.github.io) to my domain (<a href="https://chaiyapat.pix7.me/about" class="hover:underline hover:opacity-75">chaiyapat.pix7.me</a>).
           The new site is redesigned and reimagined from the ground up. There's also a new digital garden section for me to post some stuff.
-          I will set an automatic redirection when I finished tidying up! See you there :)
+          See you there :)
         .text-right.mt-3(class="sm:mt-6")
           a.bg-primary-500.px-3.py-2.rounded-lg.text-black.inline-block.tracking-wider.border.border-primary-900(
             class="hover:bg-primary-400" href="https://chaiyapat.pix7.me/about"
-          ) To the new site
+          ) To the new site (redirect in {{ countdown }}s)
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
+  props: {
+    countdown: Number,
+  },
 });
 </script>
 
